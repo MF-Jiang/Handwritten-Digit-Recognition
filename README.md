@@ -1,6 +1,6 @@
 # MNIST Handwritten Digit Recognition
 
-This project uses a Multilayer Perceptron (MLP) neural network to recognize handwritten digits from the MNIST dataset.
+This project uses some machine learning methods to recognize handwritten digits from the MNIST dataset.
 
 ## Data Sources:
 MNIST digits recognition dataset is one of the most widely used datasets in machine learning. It contains 60,000 training samples and 10,000 test samples. You can check out the details of the MNIST dataset from the original website http://yann.lecun.com/exdb/mnist/ .
@@ -17,9 +17,31 @@ X contains the feature vectors of all samples and y contains all the labels. It 
 
 My code also shows how to read the.gz file provided on the MNIST website and train and test on this data.
 
+# Multilayer Perceptron (MLP)
+
 ## Results:
 The accuracy of the model is 97.46%
 #### Correct Sample Output:
 ![Correct](image/Correct.png) 
 #### Wrong Sample Output:
 ![Wrong](image/Wrong.png)
+
+# K-Nearest Neighbor(KNN)
+
+## sklearn KNN
+
+## Results:
+The accuracy of the model is 88.50%
+#### Correct Sample Output:
+![Correct](image/K1.png) 
+#### Wrong Sample Output:
+![Wrong](image/K2.png)
+
+## myKNN & Cross Validation
+
+## Results:
+The accuracy of the model is 87.50%
+#### Correct Sample Output:
+![Correct](image/mK1.png) 
+#### Wrong Sample Output:
+![Wrong](image/mK2.png)
